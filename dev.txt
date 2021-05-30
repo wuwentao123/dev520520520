@@ -1,0 +1,13 @@
+git config --global user.name "wuwentao123"
+git config --global user.email "aa993160334@gmail.com"
+git clone https://github.com/wuwentao123/dev520520520.git
+echo "# dev520520520" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/wuwentao123/dev520520520.git
+git push -u origin main
+git remote add origin https://github.com/wuwentao123/dev520520520.git
+git branch -M main
+git push -u origin main
